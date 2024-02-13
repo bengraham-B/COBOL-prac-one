@@ -25,8 +25,18 @@
 
        IF result > 5 THEN
            DISPLAY "Your Result is greater then 5"
-       ELSE 
+       ELSE
            DISPLAY "Result is less then 5"
+       END-IF.
+
+       IF num1 > 33 THEN   
+           DISPLAY "num1 is greater then 33"
+       ELSE 
+           DISPLAY "num1 is less then 33"
+       END-IF.
+
+       IF num1 > num2 THEN
+           DISPLAY "num1 is greater then num2 (num1 > num2)"
        END-IF.
 
        DISPLAY "Press Enter to quite: " WITH NO ADVANCING.
